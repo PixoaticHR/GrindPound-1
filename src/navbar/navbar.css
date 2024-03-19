@@ -1,0 +1,48 @@
+.navbarmainDiv {
+    display: block;
+  }
+  .navbarsubdiv{
+    display: none !important;
+  }
+  
+  /* hide md screen*/
+  @media screen and (min-width:600px) and (max-width:950px){
+    .navbarmainDiv {
+      display: none !important;
+    }
+    .navbarsubdiv{
+      display: flex !important;
+      width: 100%;
+    }
+    .navbarsubdivicons{
+      
+    }
+  }
+  /* hide without lg screen*/
+  @media screen and (min-width:0px) and (max-width:950px){
+    .navbarHeaderDiv {
+      display: none !important;
+    }
+  }
+  /* hide without lg screen*/
+  @media screen and (min-width:950px){
+    .navbarHeader {
+      display: none !important;
+    }
+  }
+  
+  @media screen and(min-width:220px) and (max-width:440px){
+     .navbarMarginHeight {
+     margin-top: 40px !important;
+    }
+  }
+  @media screen and(min-width:0px) and (max-width:219px){
+    .navbarMarginHeight {
+    margin-top: 52px !important;
+   }
+  }
+  @media screen and(min-width:440px) and (max-width:1280px){
+    .navbarMarginHeight {
+    margin-top: 52px !important;
+   }
+  }
