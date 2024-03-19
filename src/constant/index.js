@@ -1,0 +1,1 @@
+export const AWS_API_URL="http://23.20.204.62:3000/api/v1";
